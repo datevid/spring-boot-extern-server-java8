@@ -1,7 +1,7 @@
 # spring-boot-externserver
 Despliegue de spring boot en un servidor externo como payara, glassfish, jboss wildfly o tomcat externo.
 
-1. Asegure que la aplicacion genere un .WAR, sino realice el cambio.
+1. Genera la aplicacion desde [Spring Initializr](https://start.spring.io/) .Asegure que la aplicacion genere un .WAR, sino realice el cambio respectivo.
 2. de la clase @SpringBootApplication, establezca su propia configuración de inicialización. 
 
 Para ello, extienda la clase de SpringBootServletInitializer
