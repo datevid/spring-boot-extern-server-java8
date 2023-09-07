@@ -1,9 +1,11 @@
 # spring-boot-externserver
 Despliegue de spring boot en un servidor externo como payara, glassfish, jboss wildfly o tomcat externo.
+
 ## Requerimientos:
 JAVA 1.8(Para versiones superiores use un servidor que lo soporte)
 Tomcat 9.0.64 o inferior que soporte JAVA 1.8
 
+## Detalle:
 1. Genera la aplicacion desde [Spring Initializr](https://start.spring.io/) .Asegure que la aplicacion genere un .WAR, sino realice el cambio respectivo.
 2. de la clase @SpringBootApplication, establezca su propia configuración de inicialización. 
 
