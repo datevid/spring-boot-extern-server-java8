@@ -8,7 +8,7 @@ Tomcat 9.0.64 o inferior que soporte JAVA 1.8
 ## Detalle:
 1. Genera la aplicacion desde [Spring Initializr](https://start.spring.io/) .Asegure que la aplicacion genere un .WAR, sino realice el cambio respectivo.
 
-Asegurate de tener la siguiente dependencia en tu POM()
+Asegurate de tener la siguiente dependencia en tu POM(En futuras versiones puede cambiar)
 ```
 <dependency>
     <groupId>org.springframework.boot</groupId>
