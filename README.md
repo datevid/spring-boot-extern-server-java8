@@ -17,7 +17,7 @@ Asegurate de tener la siguiente dependencia en tu POM(En futuras versiones puede
 </dependency>
 ```
 -->
-2. de la clase @SpringBootApplication, establezca su propia configuración de inicialización. 
+2. De la clase @SpringBootApplication, establezca su propia configuración de inicialización. 
 
 Para ello, extienda la clase de SpringBootServletInitializer
 ```
@@ -30,7 +30,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 
 }
 ```
-Sobreescriba el método configure(), de tal manera que quede de la siguiente manera:
+Sobreescriba el método configure(), que quede de la siguiente manera:
 
 ```
 @SpringBootApplication
