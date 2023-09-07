@@ -63,3 +63,13 @@ public class HelloController {
 ```
 
 3. Añada un servidor verificar el funcionamiento(El servidor Embebido también debería funcionar)
+
+## Observaciones
+En algunas versiones de Spring Boot peuda que necesites realizar configuración adicional para el funcionamiento de  un servidor externo.
+
+Ver discusión 1:
+https://stackoverflow.com/questions/33419823/spring-boot-starter-tomcat-vs-spring-boot-starter-web
+
+Ver discusión 2:
+https://www.baeldung.com/spring-boot-servlet-initializer
+
