@@ -53,15 +53,51 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+@RequestMapping("/")
+public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping()
     public String home() {
-        return "hola mundo";
+        return "Home";
+    }
+
+    @GetMapping("/a")
+    public String a() {
+        return "a";
+    }
+
+    @GetMapping("/b")
+    public String b() {
+        return "b";
     }
 }
 ```
+Adicione otro más si necesita testear el mapeo personalizado:
+```
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequestMapping("/hello")
+public class HelloController {
+
+    @GetMapping()
+    public String hello() {
+        return "hello";
+    }
+
+    @GetMapping("/a")
+    public String a() {
+        return "a";
+    }
+
+    @GetMapping("/b")
+    public String b() {
+        return "b";
+    }
+}
+```
 3. Añada un servidor verificar el funcionamiento(El servidor Embebido también debería funcionar)
 
 ## Observaciones
